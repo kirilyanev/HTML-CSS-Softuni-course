@@ -1,0 +1,21 @@
+.gallery {
+    padding-left: 120px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+li img {
+    border: 0.4rem solid black;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
