@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 60px;
+}
+
+a {
+    color: rgb(0, 102, 0);
+}
+
+article section {
+    display: inline-block;
+    width: 71%;
+    margin-right: 50px;
+}
+
+article header {
+    display: inline-block;
+    width: 70%;
+}
+
+article aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+body > header:first-of-type {
+    border-bottom: 2px solid black;
+}
+
+header {
+    position: relative;
+}
+
+header p {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+}
+
+header nav {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px;
+    color: rgb(0, 102, 0);
+}
+
+main article section > img:first-of-type {
+    float: right;
+}
+
+main section {
+    position: relative;
+}
+
+main section > :nth-child(6),
+main section > :nth-child(7),
+main section > :nth-child(8) {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+}
+
+main section > :nth-child(6) {
+    border-right: 2px solid rgba(0, 0, 0,0.1);
+    padding-right: 20px;
+
+}
+
+main section > :nth-child(7){
+    font-family: Georgia, serif;
+    font-style: oblique;
+    padding: 20px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+}
+
+main section > :nth-child(8) {
+    font-family: Georgia, serif;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 40px 30px  rgba(0, 0, 0, 0.25) ;
+    
+}
