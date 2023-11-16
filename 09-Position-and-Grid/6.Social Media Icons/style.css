@@ -1,0 +1,37 @@
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    background-color: rgba(212, 216, 216, 0.513);
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+ul li:nth-child(1) a:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+ul li:nth-child(2) a:hover {
+    cursor: pointer;
+    color: rgb(0, 179, 255);
+}
+
+ul li:nth-child(3) a:hover {
+    cursor: pointer;
+    color: rgb(236, 113, 19);
+}
+
+ul li:nth-child(4) a:hover {
+    cursor: pointer;
+    color: rgb(40, 123, 247);
+}
+
+ul li:nth-child(5) a:hover {
+    cursor: pointer;
+    color: rgb(90, 150, 84);
+}
