@@ -1,0 +1,31 @@
+body {
+    background-color: #efefef;
+
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+header,
+footer {
+    flex-basis: 100%;
+}
+
+main {
+    flex: 4 1 200px;
+    height: 200px;
+}
+
+aside {
+    flex: 1 1 200px;
+}
