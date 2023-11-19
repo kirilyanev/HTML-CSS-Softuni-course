@@ -1,0 +1,22 @@
+body {
+    padding: 4rem;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
