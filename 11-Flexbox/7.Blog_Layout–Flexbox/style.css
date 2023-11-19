@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 80px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+main {
+    width: 75%;
+}
+
+
+.first-image-wrapper {
+    background-color: red;
+    width: 150px;
+    height: 220px;
+    border: 2px solid black;
+    margin-left: 20px;
+    float: right;
+}
+
+.second-image-wrapper {
+    width: 200px;
+    height: 137px;
+    border: 2px solid black;
+    background-color: red;
+    margin: 0px 20px 20px 0px;
+    float: left;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 5px;
+    max-height:100%;
+    max-width:100%;
+    object-fit: contain;
+}
+
+
+h1,
+h2,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+
+blockquote {
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    margin-top: 0px;
+    width: 50%;
+    float: right;
+}
+
+blockquote p {
+    display: inline-block;
+    width: 30%;
+    margin-left: 70%;
+}
