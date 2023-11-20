@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 1px 19px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 19px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 19px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    width: 360px;
+}
+
+.card h3 {
+    margin: 15px 0px 5px 15px;
+}
+
+.card p {
+    margin: 0px 0px 30px 15px;
+}
